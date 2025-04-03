@@ -1,0 +1,573 @@
+.restmain{
+    width: 100%;
+}
+.restatop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.restatop p{
+    color: rgb(244, 181, 9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+}
+.restinput{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restfeature{
+    margin: 6rem 0;
+
+}
+.restfeaturegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 6rem;
+    gap: 96px;
+}
+.restfeaturegrid img{
+    max-width: 200px;
+}
+.resttoprated{
+    margin: 3rem 0;
+}
+.restfeatureflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.restfeatureflex img{
+    max-width: 160px;
+}
+.discover{
+    margin: 6rem 0;
+}
+.discovertop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discoverblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 6rem;
+    padding: 1rem;
+    border: 1px rgb(229, 219, 219) solid;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.star p{
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+}
+.jobopen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.open11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.open1 p{
+    width: 300px;
+    margin: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500
+}
+.open1{
+    padding: 6px 1rem;
+    background-color: rgb(233, 230, 230);
+}
+.open2{
+    padding: 6rem;
+    background-color: orangered;
+    border-top-left-radius: 80px;
+}
+.open2 img{
+    width: 350px;
+}
+.open2 h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.restinput input{
+    border: none;
+    margin-right: 2rem;
+    width: 900px;
+    padding: 10px 0;
+    
+}
+.restinput1{
+    padding: 1rem 3rem;
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 1000px;
+  
+}
+.comment img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
+.commentdv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 6rem 3rem;
+    padding: 2rem ;
+    border: 1px rgb(229, 219, 219) solid;
+}
+.comment p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.comment p:first-child{
+    width: 300px;
+}
+.commentimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.comtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comimg{
+    margin-right: 6rem;
+}
+.location{
+    color: orangered;
+}
+.pcolo{
+    font-size: 26px;
+    font-weight: 600;
+    color:  rgba(252, 138, 6, 1);
+}
+.pcolo1{
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+}
+.block1 button{
+    padding: 1rem;
+    background: var(--5V1A04, rgba(91, 26, 4, 1));
+    top: 500px;
+    left: 63px;
+    width: 270px;
+    height: 61px;
+    border: none;
+    border-radius: 33px;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+}
+.restgridcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgb(144, 138, 138) solid;
+    width: 244px;
+}
+.restgridtext{
+    width: 240px;
+    height: 116px;
+    padding: 26px;
+
+}
+.viewbutton{
+    border: none;
+    background: var(--5V1A04, rgba(91, 26, 4, 1));
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 10px;
+    margin-top: 2rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.restgridstar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.restgridtext p,h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.restgridtext h3{
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:1200px) {
+    .restinput1{
+        width: 800px;
+    }    
+    .restinput input{
+        width: 700px;
+        
+    }
+    .restfeaturegrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-left: 6rem;
+        gap: 96px;
+    }
+    .drink img{
+        width: 100%;
+    }
+    .open1 p{
+        width: 200px;
+        margin: 1rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: 500
+    }
+    .open1{
+        padding: 6px 0;
+        background-color: rgb(233, 230, 230);
+    }
+    .chef h5{
+        font-size: 14px;
+        margin-left: 1rem;
+    }
+    .comment p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .comment p:first-child{
+        width: 250px;
+    }
+    .restfeatureflex img{
+        max-width: 130px;
+        justify-content: space-evenly;
+    }
+    .open2{
+        padding: 6rem 3rem;
+    }
+    .commentdv{
+        margin: 6rem 1rem 6rem 2rem;
+        padding: 2rem  ;
+    }
+    
+    
+}
+@media screen and (max-width:992px) {
+    .restinput1{
+        width: 600px;
+    }    
+    .restinput input{
+        width: 500px;
+        
+    }
+    .restatop{
+        margin-left: 2rem;
+    }
+    
+    .drink img{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .open1 p{
+        width: 150px;
+        margin: 1rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        font-weight: 500
+    }
+    .open1{
+        padding: 6px 0;
+    }
+    .chef h5{
+        font-size: 14px;
+        margin-left: 1rem;
+    }
+    .comment p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .comment p:first-child{
+        width: 250px;
+    }
+    .restfeature h1{
+        margin-left: 2rem;
+    }
+    .resttoprated h1{
+        margin-left: 2rem;
+    }
+    
+    .comtext h3{
+        font-size: 20px;
+    }
+    .restfeatureflex img{
+        max-width: 130px;
+        justify-content: space-evenly;
+    }
+    .open2{
+        padding: 5rem 2rem;
+    }
+    .comtext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .commentdv{
+        margin: 6rem 0 ;
+        padding: 2rem  ;
+    }
+    .viewbutton{
+        padding: 10px 4px 10px 6px;
+    }
+    .restgridcon{
+        padding-left: 5px;
+        padding-top: 2rem;
+        margin-left: 0;
+        width: 232px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .restinput1{
+        width: 500px;
+        margin-left: 2rem;
+    }    
+    .restinput input{
+        width: 400px;
+        
+    }
+    .restfeature h1{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .restfeaturegrid{
+        grid-template-columns: 1fr 1fr ;
+        margin-left: 6rem;
+    }
+    .restfeaturegrid img{
+        width: 80px;
+    }
+    .restatop{
+        margin-left: 6px;
+    }
+
+    .restgridcon{
+        border: 1px rgb(144, 138, 138) solid;
+        width: 200px;
+    }
+    .viewbutton{
+        padding: 2px;
+        margin-top: 2rem;
+        width: 220px;
+    }
+    .discover{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .discoverblock{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 6rem;
+        padding: 1rem;
+        border: 1px rgb(229, 219, 219) solid;
+    }
+    .block1{
+        margin-left: 4rem;
+    }
+    .block1 h1{
+        font-size: 25px;
+    }
+    .star p{
+        font-size: 17px;
+    }
+    .discovertop h1{
+        font-size: 28px;
+    }
+    .block1 button{
+        margin: 1rem 0 2rem 0 ;
+
+    }
+   
+    .open1 p{
+        width: 150px;
+        margin: 1rem;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        font-weight: 500
+    }
+    .open1{
+        padding: 6px 0;
+        background-color: rgb(233, 230, 230);
+    }
+    .open2{
+        margin-top: 2rem;
+    }
+    .jobopen{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .chef h5{
+        font-size: 14px;
+        margin-left: 1rem;
+    }
+    .comment p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .comtext h3{
+        font-size: 22px;
+    }
+    .restfeatureflex img{
+        max-width: 130px;
+        justify-content: space-evenly;
+    }
+    .open2{
+        padding: 5rem 2rem;
+        background-color: white;
+    }
+    .open2 h1 {
+        color: rgba(91, 26, 4, 1);
+        margin-bottom: 2rem;
+    }
+    .commentdv{
+        margin: 6rem 0;
+        padding: 2rem ;
+        flex-direction: column;
+       
+    }
+    .restfeatureflex img{
+        max-width: 70px;
+        justify-content: space-evenly;
+    }
+    .comment p:first-child{
+        width: 400px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .restinput1{
+        width: 300px;
+        margin-left: 2rem;
+    }    
+    .restinput input{
+        width: 100px;
+        
+    }
+    .restatop h1{
+        font-size: 20px;
+    }
+    .restfeature h1{
+        font-size: 18px;
+    }
+    .restfeaturegrid{
+        grid-template-columns: 1fr  ;
+        margin-left: 4rem;
+    }
+    .restfeatureflex img{
+        max-width: 50px;
+        margin-right: 1rem;
+    }
+    .resttoprated h1{
+        font-size: 20px;
+    }
+    .discovertop h1,p{
+        font-size: 12px;
+        margin-left: 3rem;
+        
+    }
+    .block1{
+        margin-left: 2rem;
+    }
+    .discoverblock{      
+        margin:2rem 0 2rem 4rem;
+    }
+    .block1 h1,.pcolo,.pcolo1{
+        font-size: 15px;
+    }
+    .block1 button{
+        top: 400px;
+        left: 53px;
+        width: 170px;
+        height: 51px;
+
+        margin: 1rem 0 2rem 0 ;
+    }
+    .block2 img{
+        width: 150px;
+    }
+    .comment p:first-child{
+        width: 200px;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .open1 p{
+        width: 120px;
+        font-size: 10px;
+
+    }
+    .open2{
+        padding: 3rem 7px;
+    }
+    .viewbutton{
+        padding: 10px 4px 10px 0;
+    }
+    .restgridcon{
+        width: 207px;
+        padding-left: 14px;
+        margin-left: 2rem;
+    }
+    .restgridcon h3{
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .resttoprated{
+        margin-left: 1rem;
+    }
+    .jobopen{
+        margin-left: 1rem;
+    }
+    .commentdv{
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,103 @@
+.trash{
+    color: rgba(91, 26, 4, 1);
+}
+
+.food2 h2,h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(36, 36, 36, 0.2);
+}
+.food2a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.food2 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 300px;
+}
+.food2{
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.food2 button{
+    padding: 12px;
+    top: 500px;
+    width: 300px;
+    left: 89px;
+    margin-top: 1rem;
+    height: 65px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(91, 26, 4, 1);
+    color: white;
+}
+.delete p{
+    font-size: 17px;
+    margin-left: 2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: rgba(91, 26, 4, 1);
+}
+
+
+.size{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.size a{
+    border: 1px black solid;
+    padding: 5px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.food2 a, p{
+    margin-top: 1rem;
+}
+@media screen and (max-width:992px) {
+    .food2 h2,h3{
+        font-size: 22px;
+        font-weight: 500;
+        color: rgba(36, 36, 36, 0.2);
+    }
+    .food2{
+        margin-right: 3rem;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .food2 h2,h3{
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .food2 button{
+        padding: 12px;
+        top: 400px;
+        width: 200px;
+        left: 79px;
+        margin-top: 1rem;
+        height: 55px;
+    }
+    .food2a{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .food2 p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

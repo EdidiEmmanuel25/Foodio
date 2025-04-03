@@ -1,0 +1,945 @@
+.resthomemain{
+    width: 100%;
+}
+.mai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.com{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-right: 10px;;
+    background-color: rgb(245, 95, 40);
+    border-top-left-radius: 100px;
+    z-index: 80;
+    position: absolute;
+    right: 20px;
+}
+.woman{
+    width: 550px;
+    height: 400px;
+    z-index: 100;
+    position: relative;
+    right: 380px;
+}
+.notm{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.spag{
+    width: 400px;
+    height: 300px;
+}
+.maif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%; 
+}
+.maif p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.yellowp{
+    color: yellow;
+    font-size: 48px;
+}
+.maif h1{
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.maif input{
+    padding: 15px 28px;
+    border: 1px black solid;
+    border-radius: 30px;
+    border-right: none;
+}
+.maif button{
+    padding: 15px 38px;
+    color: white;
+    background-color: rgba(133, 43, 12, 1);
+    border-radius: 20px;
+    border: none;
+    margin: 1rem 0 0 -20px;
+    margin-bottom: 6px;
+   
+
+}
+.mainimg img{
+    max-width: 300px;
+    max-height: 200px;
+}
+.mainimg{
+    position: relative;
+}
+.imagemain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.percentage p{
+    position: absolute;
+    top:0;
+    left: 230px;
+    padding: 8px;
+    background-color: rgb(2, 2, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
+.text1{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.text1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(252, 138, 6, 1);
+}
+.text1 h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.mafip{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.catimage img{
+    max-width: 250px;
+    max-height: 180px;
+}
+.catimagecon,.catimageconx{
+    align-items: center;
+    background: rgba(217, 217, 217, 0.56);
+
+}
+.catimagecon1{
+    align-items: center;
+
+}
+.catimagecon1 h2{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(252, 138, 6, 1);
+}
+.catimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+.catimagecon h2{
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.catimageconx h2{
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.catimagecon h4{
+    color: rgba(252, 138, 6, 1);
+    margin-left: 4px;
+    font-size: 16ipx;
+    font-weight: 700;
+}
+.catimageconx{
+    color: rgba(252, 138, 6, 1);
+    margin-left: 4px;
+    font-size: 16ipx;
+    font-weight: 700;
+}
+.categories{
+    margin: 6rem 2rem;
+}
+.bannerimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.foodbanner{
+    padding: 2rem;
+    background-color:rgba(216, 216, 216, 0.62);
+}
+.bannerim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bannerim h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.bannercontent p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.h1l{
+    padding-left: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 19px;
+    background-color: rgb(7, 7, 80);
+    border-radius: 40px;
+    border-top-left-radius: 0;
+    color: white;
+    border-bottom-left-radius: 0;
+    border: none;
+}
+.h1l span{
+    color: gold;
+    text-decoration: underline;
+}
+.bannercontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    height: 400px;
+}
+.flow img{
+    max-width: 700px;
+    max-height: 300px;
+
+}
+.flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem 1rem;
+}
+.flow1{
+    position: relative;
+}
+.flowup{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 12px;
+}
+.flowup p{
+    font-weight: 700;
+    font-size: 18px;
+}
+.flowdown{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+.flowdown p{
+    color: yellow;
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.flowdown h1{
+    color: white;
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 5px;
+}
+.flowdown button{
+    padding: 1rem 3rem;
+    color: white;
+    background-color: rgba(252, 138, 6, 1);
+    border: none;
+    border-radius: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.trackup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.trackdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4rem 0;
+}
+.tracdown1 p{
+    font-size: 20px;
+    font-weight: 800;
+}
+.trackup1 h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.track22{
+    display: flex;
+    flex-direction: row;
+}
+.track22t{
+    max-width: 800px;
+}
+.track22t p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.t2{
+    padding: 8px;
+    background-color:  rgba(252, 138, 6, 1);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trackimg{
+    padding: 1rem;
+    background-color:rgba(217, 217, 217, 0.85);
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 260px;
+}
+.trackimg p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.trackimg h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.trackup2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.trackup2 p{
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t1{
+    padding: 1rem;
+    border: 1px yellow solid;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 22px;
+}
+
+.trackdown img{
+    max-width: 40px;
+}
+.records{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(252, 138, 6, 1);
+    margin: 0 6rem;
+}
+.rec11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.rec12{
+    height: 30px;
+    width: 1px;
+    background-color: white;
+    align-items: center;
+}
+.rec11 h2{
+    color: white;
+    font-size: 64px;
+    font-weight: 300;
+}
+.rec11 p{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+    .com{
+        display: flex;
+        flex-direction: row;
+        padding-top: 60px;
+        padding-right: 5px;;
+        background-color: rgb(245, 95, 40);
+        border-top-left-radius: 100px;
+        z-index: 80;
+        position: absolute;
+        right: 20px;
+    }
+    .woman{
+        width: 300px;
+        height: 300px;
+        z-index: 100;
+        position: relative;
+        right: 380px;
+    }
+    .notm{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .spag{
+        width: 300px;
+        height: 200px;
+    }
+    .maif p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-weight: 15px;
+    }
+    .maif h1{
+        font-size: 28px;
+    }
+    .maif input{
+        padding: 15px 28px;
+        border: 1px black solid;
+        border-radius: 30px;
+        border-right: none;
+    }
+    .maif{
+        margin-left: 2rem;
+    }
+    .catimage img{
+        max-width: 1750px;
+        max-height: 140px;
+    }
+    .catimagecon1 h2{
+        padding: 1rem;
+        font-size: 12px;
+        font-weight: 700;
+        color: white;
+        background-color: rgba(252, 138, 6, 1);
+    }
+    .catimageconx1 h2{
+        padding: 1rem;
+        font-size: 12px;
+        font-weight: 700;
+        color: white;
+        background-color: rgba(252, 138, 6, 1);
+    }
+    .img1{
+        height: 300px;
+    }
+    .bannerim h1{
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 6px;
+    }
+    .bannercontent p{
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 6px;
+    }
+    .tracdown1 p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .trackimg{
+        margin-right: 0;
+        margin-left: 1rem;
+        height: 160px;
+        width: 160px;
+    }
+    .trackimg p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    .trackimg h4{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .track22{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .track22t p{
+       font-size: 16px;
+    }
+    
+    .rec11 h2{
+        font-size: 34px;
+    }
+    .rec11 p{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:992px) {
+    .mainimg img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .imagemain{
+        margin-left: 2rem;
+    }
+    .percentage p{
+        left: 140px;
+    
+    }
+    .foodbanner{
+        margin-left: 2rem;
+    }
+    .catimage img{
+        max-width: 100px;
+        max-height: 140px;
+    }
+    .flow img{
+        max-width: 330px;
+        max-height: 300px;
+    
+    }
+    .flow{
+        align-items: center;
+    }
+    .flowup p{
+        font-size: 13px;
+    }
+    .flowdown p{
+        font-size: 13px;
+    }
+    .flowdown h1{
+        font-size: 24px;
+    }
+    .trackup1 h1{
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .trackup2 p{
+        font-size: 13px;
+    }
+    .mai{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .com{
+        display: flex;
+        flex-direction: row;
+        padding-top: 60px;
+        padding-right: 5px;;
+        background-color: rgb(245, 95, 40);
+        border-top-left-radius: 100px;
+        z-index: 80;
+        position: absolute;
+        right: 20px;
+    }
+    .woman{
+        width: 300px;
+        height: 300px;
+        z-index: 100;
+        position: relative;
+        right: 140px;
+    }
+    .notm{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .spag{
+        width: 300px;
+        height: 200px;
+    }
+    .maif p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 1rem 0;
+    }
+    .maif h1{
+        font-size: 32px;
+    }
+    .maif input{
+        padding: 15px 28px;
+        border: 1px black solid;
+        border-radius: 30px;
+        border-right: none;
+    }
+    .maif{
+        margin-left: 0;
+        align-items: center;
+        width: 400px;
+        margin-bottom: 3rem;
+    }
+    .mais{
+        align-items: center;
+        margin-right: 4rem;
+    }
+    .trackimg{
+        margin-right: 0;
+        margin-left: 1rem;
+        height: 120px;
+        width: 120px;
+    }
+    .trackimg p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    .trackimg h4{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .track22t p{
+       font-size: 13px;
+    }
+    .tracdown1 p{
+        font-size: 13px;
+        font-weight: 500;
+        width: 200px;
+        margin-left: 2rem;
+    }
+    .rec11 h2{
+        font-size: 24px;
+    }
+    .rec11 p{
+        font-size: 13px;
+    }
+
+
+}
+@media screen and (max-width:768px) {
+    .catimage img{
+        max-width: 170px;
+        max-height: 100px;
+        margin-right: 1rem;
+    }
+    .catimagecon1 h2{
+        padding: 6px;
+        font-size: 13px;
+        font-weight: 400;
+        align-items: center;
+    }
+    .catimagecon h2,h4{
+        font-size: 12px;
+    }
+    .catimageconx,.catimageconx1{
+        display: none;
+    }
+    .trackdown,.flow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .bannercontent h1{
+    font-size: 17px;
+    width: 200px;
+   }
+   .bannercontent p{
+    font-size: 15px;
+   }
+   .bannercontent img{
+    width: 180px;
+   }
+   .flow1 img{
+    margin-top: 3rem;
+   }
+   .flowup{
+    top: 30px;
+    }
+    .trackup1 h1{
+        font-size: 12px;
+    }
+    .trackup2 p{
+        font-size: 10px;
+    }
+    .tracdown1{
+        margin-bottom: 3rem;
+    }
+    .tracdown1 p{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .rec11 h2{
+        font-size: 16px;
+    }
+    .rec11 p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .com{
+        padding-top: 30px;
+        padding-right: 10px;
+        position: absolute;
+        right: 10px;
+    }
+    .woman{
+        width: 150px;
+        height: 150px;
+        z-index: 100;
+        position: relative;
+        right: 0;
+    }
+    .notm{
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+    }
+    .spag{
+        width: 170px;
+        height: 100px;
+    }
+    .maif{
+        width: 100%; 
+    }
+    .maif p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .yellowp{
+        color: yellow;
+        font-size: 28px;
+    }
+    .maif h1{
+        font-size: 28px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .maif input{
+        align-items: center;
+        padding: 10px 18px;
+    }
+    .maif button{
+        padding: 10px 30px;
+        align-items: center;
+       
+    
+    }
+    .imagemain,.catimage{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+    }
+    .mainimg{
+        margin-bottom: 3rem;
+    }
+    .mainimg img{
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .mainimg{
+        position: relative;
+    }
+    .percentage p{
+        position: absolute;
+        top:0;
+        left: 230px;
+        padding: 8px;
+        background-color: rgb(2, 2, 40);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: white;
+    
+    }
+    .text1{
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+    }
+    .text1 p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: rgba(252, 138, 6, 1);
+    }
+    .text1 h2{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .catimage img{
+        max-width: 200px;
+        max-height: 200px;
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+    .catimagecon,.catimageconx{
+        align-items: center;
+        background: rgba(217, 217, 217, 0.56);
+    
+    }
+    .catimagecon1{
+        align-items: center;
+    
+    }
+    .catimagecon1 h2{
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        background-color: rgba(252, 138, 6, 1);
+        margin-bottom: 2em;
+    }
+    .catimagecon h2{
+        margin-left: 4px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .catimageconx h2{
+        margin-left: 4px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .catimagecon h4{
+        color: rgba(252, 138, 6, 1);
+        margin-left: 4px;
+        font-size: 16ipx;
+        font-weight: 700;
+    }
+    .catimageconx{
+        color: rgba(252, 138, 6, 1);
+        margin-left: 4px;
+        font-size: 16ipx;
+        font-weight: 700;
+    }
+    .categories{
+        margin: 6rem 2rem;
+    }
+    .cattext h1{
+        width: 200px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foodbanner{
+        margin-left: 2rem;
+        padding-left: 1rem;
+    }
+    .flow{
+        margin-left: 5rem;
+    }
+    .bannercontent h1{
+        font-size: 13px;
+        width: 200px;
+       }
+       .trackup1 h1{
+        font-size: 7px;
+        width: 100px;
+       }
+       .trackup2 p{
+        font-size: 5px;
+        width: 50px;
+        margin-right: 1px;
+       }
+       .bannercontent p{
+        font-size: 10px;
+       }
+       .bannercontent img{
+        width: 100px;
+       }
+       .img1{
+        width: 100px;
+        height: 100px;
+       }
+       .bannerimage{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bannerim{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 2rem;
+        align-items: center;
+       
+    }
+    .h1l{
+        padding-left: 15px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 10px;
+        background-color: rgb(7, 7, 80);
+        border-radius: 40px;
+        border-top-left-radius: 0;
+        color: white;
+        border-bottom-left-radius: 0;
+        border: none;
+    }
+
+    .track22{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .trackimg{
+        margin-bottom: 1rem;
+    }
+    .track22t p{
+        font-size: 7px;
+    }
+    .rec11 h2{
+        font-size: 10px;
+        font-weight: 1000;
+    }
+    .rec11 p{
+        font-size: 8px;
+        width: 30px;
+        font-weight: 1000;
+    }
+    .records{
+        margin: 0 0 0 3rem;
+        width: 300px;
+    }
+    .trackup2{
+        display: none;
+    }
+}

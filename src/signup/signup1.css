@@ -1,0 +1,54 @@
+.singup1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.signup{
+    width: 100%;
+}
+.singup1 h1{
+    font-size: 64px;
+}
+.singup1 label{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-right: 14rem;
+}
+.singup1 input{
+    padding:2rem 10rem 0 1rem;
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 2rem;
+}
+.button{
+    padding: 16px 5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(91, 26, 4, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 3rem;
+}
+.ae{
+    padding: 12px 3rem;
+    border: none;
+    border-radius: 16px;
+    background-color:  black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+
+}

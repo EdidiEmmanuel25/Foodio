@@ -1,0 +1,198 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(217, 217, 217, 1);
+    width: 100%;
+}
+.foot-f{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-f img{
+    margin-bottom: 2rem;
+    width: 185px;
+}
+.foot-f p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.foot-s{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.foot-s h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+.foot-s input{
+    padding: 15px;
+    border: none;
+    border-radius: 14px;
+    background-color: white;
+    margin: 1rem 0;
+}
+.foot-s input::placeholder{
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+.foot-s p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.foot-s button{
+    padding: 10px 19px;
+    border: none;
+    border-radius: 14px;
+    background-color: rgba(133, 43, 12, 1);
+    margin-left: -30px;
+}
+.foot-si{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+}
+.foot-si img{
+    width: 48px;
+}
+.foot-t ,.foot-ft{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-t a ,.foot-ft a{
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+.foot-t h3 , .foot-ft h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+@media screen and (max-width:1200px) {
+    .foot-s{
+        width: 400px;
+    }
+    .foot-t{
+        width: 200px;
+    }
+    .foot-ft{
+        width: 250px;
+    }
+    .foot-f{
+        width: 210px;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width:992px) {
+
+    .foot-f img{
+        width: 100px;
+    }
+    .foot-t a,.foot-ft a,.foot-f p{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .foot-f img{
+        width: 100px;
+    }
+    .foot-t a,.foot-ft a,.foot-f p{
+        font-size: 10px;
+    }
+    .foot-s h5{
+        font-size: 10px;
+    }
+    .foot-s p{
+        font-size: 10px;
+    }
+    .foot-s input{
+        width: 100px;
+        padding: 9px;
+        border: none;
+        border-radius: 14px;
+        background-color: white;
+        margin: 1rem 0;
+    }
+    .foot-s input::placeholder{
+        font-size: 10px;
+    }
+    .foot-s button{
+        padding: 7px 13px;
+        border: none;
+        border-radius: 14px;
+        background-color: rgba(133, 43, 12, 1);
+        margin-left: 0;
+        
+    }
+    .foot-t h3,.foot-ft h3{
+        font-size: 13px;
+    }
+    .foot-si img{
+        width: 30px;
+    }
+    .sbutton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot-t,.foot-ft{
+        width: 25%;
+    }
+    .foot-f,.foot-s{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .foot-f img{
+        width: 60px;
+    }
+    .foot-t a,.foot-ft a,.foot-f p{
+        font-size: 7px;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot-s h5{
+        font-size: 7px;
+    }
+    .foot-s p{
+        font-size: 7px;
+    }
+    .foot-s input{
+        width: 70px;
+        padding: 5px;
+    }
+    .foot-s input::placeholder{
+        font-size: 7px;
+    }
+    .foot-s button{
+        padding: 5px 10px;
+        
+    }
+    .foot-t h3,.foot-ft h3{
+        font-size: 7px;
+    }
+    .foot-si img{
+        width: 20px;
+    }
+
+}
