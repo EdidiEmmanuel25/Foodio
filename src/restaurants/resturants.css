@@ -441,6 +441,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 4rem;
     }
     .chef h5{
         font-size: 14px;
@@ -487,7 +488,7 @@
         margin-left: 2rem;
     }    
     .restinput input{
-        width: 100px;
+        width: 180px;
         
     }
     .restatop h1{
@@ -495,10 +496,12 @@
     }
     .restfeature h1{
         font-size: 18px;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
     }
     .restfeaturegrid{
         grid-template-columns: 1fr  ;
-        margin-left: 4rem;
+        margin-left: 7rem;
     }
     .restfeatureflex img{
         max-width: 50px;
