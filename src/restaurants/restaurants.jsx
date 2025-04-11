@@ -43,10 +43,10 @@ function Restaurant() {
             <div className="restgridtext">
               <h3>Chicken Republic -Nigerian Cuisine</h3>
               <div className="restgridstar">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar />
+              <FaStar className='starp'color='gold'/>
+              <FaStar className='starp'color='gold' />
+              <FaStar className='starp'color='gold' />
+              <FaStar className='starp'color='gold' />
               <p>4.2</p>
               </div>
               <p>30 mins Free Delivery</p>
@@ -59,10 +59,10 @@ function Restaurant() {
             <div className="restgridtext">
               <h3>IBile -Nigerian Cuisine</h3>
               <div className="restgridstar">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar />
+              <FaStar className='starp'color='gold' />
+              <FaStar className='starp'color='gold' />
+              <FaStar className='starp' />
+              <FaStar className='starp' />
               <p>4.2</p>
               </div>
               <p>30 mins Free Delivery</p>
@@ -77,10 +77,10 @@ function Restaurant() {
             <div className="restgridtext">
               <h3>Kfc -American Cuisine</h3>
               <div className="restgridstar">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar />
+              <FaStar className='starp' color='gold' />
+              <FaStar className='starp' color='gold'/>
+              <FaStar className='starp'color='gold' />
+              <FaStar className='starp'color='gold' />
               <p>4.2</p>
               </div>
               <p>30 mins Free Delivery</p>
@@ -93,10 +93,10 @@ function Restaurant() {
             <div className="restgridtext">
               <h3>Mc Donald-American Cuisine</h3>
               <div className="restgridstar">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar />
+              <FaStar className='starp' color='gold' />
+              <FaStar className='starp'color='gold' />
+              <FaStar className='starp' color='gold' />
+              <FaStar className='starp' />
               <p>4.2</p>
               </div>
               <p>30 mins Free Delivery</p>
@@ -109,10 +109,10 @@ function Restaurant() {
             <div className="restgridtext">
               <h3>Mega Chicken -Nigerian Cuisine</h3>
               <div className="restgridstar">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar />
+              <FaStar className='starp' color='gold'/>
+              <FaStar className='starp' color='gold'/>
+              <FaStar className='starp' color='gold'/>
+              <FaStar className='starp'/>
               <p>4.2</p>
               </div>
               <p>30 mins Free Delivery</p>
@@ -125,10 +125,10 @@ function Restaurant() {
             <div className="restgridtext">
               <h3>Chicken Republic -Nigerian Cuisine</h3>
               <div className="restgridstar">
-              <FaStar />
-              <FaStar />
-              <FaStar />
-              <FaStar />
+              <FaStar className='starp' color='gold'/>
+              <FaStar className='starp' color='gold'/>
+              <FaStar className='starp' color='gold'/>
+              <FaStar className='starp'color='gold'/>
               <p>4.2</p>
               </div>
               <p>30 mins Free Delivery</p>

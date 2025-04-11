@@ -23,6 +23,7 @@
     margin: 6rem 0;
 
 }
+
 .restfeaturegrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -190,7 +191,8 @@
     align-items: center;
     justify-content: center;
     border: 1px rgb(144, 138, 138) solid;
-    width: 244px;
+    width: 239px;
+    padding-top: 2rem;
 }
 .restgridtext{
     width: 240px;
@@ -211,11 +213,15 @@
     align-items: center;
     justify-content: center;
 }
+
 .restgridstar{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.starp{
+    margin-top: 1rem;
 }
 .restgridtext p,h3{
     display: flex;
@@ -234,6 +240,9 @@
     .restinput input{
         width: 700px;
         
+    }
+    .restgridcon{
+        width: 239px;
     }
     .restfeaturegrid{
         display: grid;
@@ -347,13 +356,14 @@
         padding: 2rem  ;
     }
     .viewbutton{
-        padding: 10px 4px 10px 6px;
+        padding: 10px 0px 10px 6px;
+        width: 230px;
     }
     .restgridcon{
         padding-left: 5px;
         padding-top: 2rem;
         margin-left: 0;
-        width: 232px;
+        width: 229px;
     }
     
 }
@@ -384,12 +394,12 @@
 
     .restgridcon{
         border: 1px rgb(144, 138, 138) solid;
-        width: 200px;
+        width: 230px;
     }
     .viewbutton{
-        padding: 2px;
         margin-top: 2rem;
-        width: 220px;
+        padding: 5px 3px 5px 0px;
+        width: 233px;
     }
     .discover{
         display: flex;
@@ -553,10 +563,11 @@
         padding: 3rem 7px;
     }
     .viewbutton{
-        padding: 10px 4px 10px 0;
+        padding:4px 0px 4px 0px;
+        width: 222px;
     }
     .restgridcon{
-        width: 207px;
+        width: 204px;
         padding-left: 14px;
         margin-left: 2rem;
     }
@@ -572,5 +583,18 @@
     }
     .commentdv{
         margin-left: 2rem;
+    }
+}
+@media screen and (max-width:373px) {
+    .restinput1{
+        width: 190px;
+        margin-left: 2rem;
+    }    
+    .restinput input{
+        width: 120px;
+        
+    }
+    .restgridcon{
+        margin-left: 1rem;
     }
 }

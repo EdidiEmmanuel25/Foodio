@@ -138,6 +138,7 @@ function Rest() {
     
             </>
         )
+      
         const [toggleMenu , setToggelMenu] = useState(false)
     return (
         <div className="resthomemain">
@@ -326,7 +327,7 @@ function Rest() {
                            <Menu3 />
                         </div>
                          <div className="ad21">
-                            <FaThermometer size={34} color=' rgba(91, 26, 4, 1)'  onClick={() => setToggelMenu(true)}/>
+                            <FaThermometer size={34} color=' rgba(91, 26, 4, 1)'    onClick={() => setToggelMenu(true)} />
                             {toggleMenu  && (
                             <div className='add2'>
                                 <FaWindowClose size={34} className="overlay_close" color="white"   onClick={() => setToggelMenu(false)}/>
